@@ -10,6 +10,7 @@ const int code_size=8;
 const int size=20;
 const int sun=900;
 const int commands_count=8;
+const int max_command=8;
 int mod(int x,int N){
     return (x % N + N) %N;
 }
@@ -157,6 +158,7 @@ world[0][0].energy=250;
 int code[code_size];
 for(int i=0;i<code_size+1;i++)
 {
+
     code[i]=0;
 }
 world[0][0].setCode(code);
