@@ -2,7 +2,7 @@
 #include <string>  
 #include <ctime>
 #include <stdlib.h>
-#include <cstdlib
+#include <cstdlib>
 #include <SDL2/SDL.h>
 
 using namespace std; 
