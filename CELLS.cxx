@@ -7,6 +7,7 @@
 
 using namespace std;
 const int code_size = 8;
+const int max_command = 8;
 const int size = 20;
 const int sun = 900;
 const int commands_count = 8;
@@ -71,7 +72,7 @@ class Point
         // Мутация с шансом 20% в коде
         if (rand() % 6 == 5)
         {
-            newCode[rand() % (code_size + 1)] = rand() % commands_count;
+            newCode[rand() % (code_size + 1)] = rand() % max_command;
         }
         // Устанавливаем все параметры клетки
 
